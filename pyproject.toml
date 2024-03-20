@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "data-mining-course-agh"
+version = "0.1.0"
+description = "Data mining course at AGH UST."
+authors = ["Szymon-Budziak <szymonbudziak@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "data_mining", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+scikit-learn = "^1.4.1.post1"
+
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
