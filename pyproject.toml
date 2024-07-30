@@ -2,7 +2,7 @@
 name = "data-mining-course-agh"
 version = "0.1.0"
 description = "Data mining course at AGH UST."
-authors = ["Szymon-Budziak <szymonbudziak@gmail.com>"]
+authors = ["Szymon-Budziak"]
 readme = "README.md"
 packages = [{ include = "data_mining", from = "src" }]
 
